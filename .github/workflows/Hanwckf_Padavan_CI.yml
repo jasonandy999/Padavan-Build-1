@@ -11,11 +11,11 @@ on:
 #      - 'v*'
 #    branches:                                                  # 分支
 #      - main                                                   # 主分支
-  workflow_dispatch:
+#  workflow_dispatch:
 #  schedule:                                                    # 自动编译时间表
 #    - cron: 0 19 * * *                                         # 每天国际时间19点，北京时间凌晨3点执行(北京+8)
-  watch:                                                        # 监视操作
-    types: [started]                                            # 点击 Star 之后
+#  watch:                                                        # 监视操作
+#    types: [started]                                            # 点击 Star 之后
 env:
   images_dir: /opt/images                                       # 固件目录
   build_dir: /opt/rt-n56u                                       # 源码目录
